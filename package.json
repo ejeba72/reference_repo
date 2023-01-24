@@ -1,0 +1,31 @@
+{
+  "name": "holiday_challenge",
+  "version": "1.0.0",
+  "description": "This is a reference material for the 'blog_api_3' project I am currently working on. I am seriously brain-rusty at the moment! And so I need to make reference to my previous work, as I work on the 'blog_api_3' project. In addition, I will be experimenting with the reference material as well. Hence the need for this repo, since I don't want to tamper with the original repo. I copied this repo, locally on my laptop, from the 'holiday_challenge' repo on my laptop and renamed it 'reference_repo'. Also, I deleted the '.git' directory, initialized an empty Git repo for it.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejeba72/holiday_challenge.git"
+  },
+  "author": "Emmanuel Eni <eejeba@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejeba72/holiday_challenge/issues"
+  },
+  "homepage": "https://github.com/ejeba72/holiday_challenge#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
